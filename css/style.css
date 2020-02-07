@@ -1,0 +1,220 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@keyframes bee{
+    0%{
+        opacity: 0;
+        transform: translateX(100vw) rotate(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0vw) rotate(180deg);
+    }
+}
+@font-face{
+    src: url(../fonts/Sacramento-Regular.ttf);
+    font-family: "sacra";
+}
+@font-face{
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-family: "mon";
+}
+@font-face{
+    src: url(../fonts/AdreenaScript-Demo.ttf);
+    font-family: ad;
+}
+
+.top-container{
+    padding-top: 5%;
+    background-color: #dff7bc;
+    color: #0a6103;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+#top-title{
+    font-family: sacra;
+    font-size: 120px;
+    padding-top: 15%;
+    text-align: center;
+    display: inline;
+}
+.top-content{
+    font-family: mon;
+    font-size: 50px;
+    padding-top: 5%;
+}
+#bee{
+    position: absolute;
+    top: 30px;
+    height: 100px;
+    animation: bee 15s infinite;
+
+
+}
+#flower{
+    height: 300px;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+}
+#pic{
+    height: 250px;
+    widows: 250px;
+    border-radius: 50%;
+}
+.mid-container{
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: #f4f1e9;
+}
+.hello{
+    font-size: 45px;
+    color: #4a6b19;
+    font-family: ad;
+}
+.contetnt-sub{
+    font-family: mon;
+}
+.content{
+    line-height: 45px;
+    font-family: mon;
+    padding-bottom: 15%;
+}
+.hey{
+    border: dotted;
+    margin-right: 45%;
+    margin-left: 45%;
+    color: #2b463c;
+}
+.yow{
+    border: dotted;
+    margin-right: 45%;
+    margin-left: 45%;
+    color: #2b463c;
+}
+.skills{
+    padding-top: 15%;
+    font-size: 45px;
+    color: #4a6b19;
+    font-family: mon;
+}
+.com{
+    float: left;
+    height: 100px;
+    margin-right: 15px;
+}
+#computer{
+    padding-bottom: 15px;
+    text-align: left;
+    font-family: ad;
+    font-weight: bolder;
+    color: #4a6b19;
+}
+.comprog{
+    text-align: left;
+    font-family: mon;
+    font-weight: lighter;
+    line-height: 40px;
+}
+#hand{
+    height: 120px;
+    float: right;
+    margin-left: 15px;
+}
+#calli{
+    padding: 15px;
+    text-align: left;
+    font-family: ad;
+    font-weight: bolder;
+    color: #4a6b19;
+}
+.cal{
+    text-align: left;
+    font-family: mon;
+    font-weight: lighter;
+    line-height: 40px;
+    padding-bottom: 15%;
+}
+.bottom{
+    text-align: center;
+    font-family: mon;
+    background-color: #f4f1e9;
+}
+.ewm{
+    font-size: 40px;
+    color: #4a6b19;
+    font-family: ad;
+    font-weight: lighter;
+    padding-top: 5%;
+}
+.letstalk{
+    color: #27380d;
+    font-family: mon;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.interest{
+    color: #4a6b19;
+    line-height: 30px;
+}
+.tu{
+    display: inline-block;
+    background-color: #2b463c;
+    color: azure;
+    margin-bottom: 40px;
+    padding: 5px;
+    border-radius: 5%;
+    text-decoration: none;
+}
+.footer{
+    height: 100px;
+    background-color: #b1d182;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 0px;
+    color: azure;
+}
+.insta{
+    text-decoration: none;
+    font-family: mon;
+    padding: 50px;
+    color: #2b463c;
+}
+.facebook{
+    text-decoration: none;
+    font-family: mon;
+    padding: 50px;
+    color: #2b463c;
+}
+.twit{
+    text-decoration: none;
+    font-family: mon;
+    padding: 50px;
+    color: #2b463c;
+}
+.insta:hover{
+    text-decoration: none;
+    font-family: mon;
+    padding: 50px;
+    color: white;
+    font-weight: bolder;
+}
+.facebook:hover{
+    text-decoration: none;
+    font-family: mon;
+    padding: 50px;
+    color: white;
+    font-weight: bolder;
+}
+.twit:hover{
+    text-decoration: none;
+    font-family: mon;
+    padding: 50px;
+    color: white;
+    font-weight: bolder;
+}
+
